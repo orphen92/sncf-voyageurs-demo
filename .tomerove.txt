@@ -32,3 +32,16 @@ AJout de la configuration "engines" dans package.json pour indiquer la version d
     "yarn": "please-use-npm"
   },
 
+
+
+Formatage et de Qualité du Code
+
+
+ESLint:
+
+React définie en variable global et readonly
+
+empeche la generation d'erreur lors de l'utilisation de "^_" dans les argument
+
+On peut tester la configuration avec la commande "npm run lint"
+
