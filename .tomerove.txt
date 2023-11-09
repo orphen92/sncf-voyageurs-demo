@@ -60,5 +60,13 @@ dist
 node_modules
 
 a jout du script "prettier": "prettier --write ." dans le script du projet pour permette le reformatage de tout le projet
-npm prettier
+npm run prettier
 
+
+
+
+Git Hooks
+
+ESLint:
+Ajout Husky au projet npm add -D husky
+Generer le dossier .husky avec la commande npm husky install
