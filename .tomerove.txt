@@ -1,0 +1,34 @@
+Package manager:
+NPM
+
+ESLint:
+Activer
+
+Tailwinds:
+Desactiver
+
+"src" directory:
+activer
+
+App Router:
+Desactiver
+
+Page Router:
+Activer
+
+Import alias customisé:
+@/*
+
+
+Verouillage de l'environement Node
+
+NVM pour la version de node
+Ajout du fichier .nvmrc pour bloquer la version a utiliser (nvm use dans le projet)
+
+AJout de la configuration "engines" dans package.json pour indiquer la version de node, npm
+  "engines": {
+    "node": ">=18.18.2",
+    "npm": ">=10.2.3",
+    "yarn": "please-use-npm"
+  },
+
