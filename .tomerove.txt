@@ -45,3 +45,20 @@ empeche la generation d'erreur lors de l'utilisation de "^_" dans les argument
 
 On peut tester la configuration avec la commande "npm run lint"
 
+Ajout Prettier au projet npm add -D prettier
+
+Ajout du fichier de conf .prettierrc avec les valeur suivantes
+{
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": true
+}
+Ajout du fichier .prettierignore pour ne pas que l'ide ne reformatte tout le projet
+.next
+dist
+node_modules
+
+a jout du script "prettier": "prettier --write ." dans le script du projet pour permette le reformatage de tout le projet
+npm prettier
+
