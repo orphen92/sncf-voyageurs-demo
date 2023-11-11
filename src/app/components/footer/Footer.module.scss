@@ -1,0 +1,15 @@
+.footer {
+    height: 6rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        font-size: 1.2em;
+        display: inline-flex;
+        align-items: center;
+    }
+    &__navigation {
+        display: inline-flex;
+        align-items: center;
+    }
+}

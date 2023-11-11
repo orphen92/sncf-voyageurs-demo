@@ -1,5 +1,6 @@
+import TopBar from '@app/components/top-bar/TopBar';
+import Button from '@app/shared/buttons/button/Button';
 import Head from 'next/head';
-
 export default function Home() {
     return (
         <>
@@ -15,7 +16,11 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>fsdfsdfsdfs</main>
+            <main>
+                <TopBar />
+                <Button>Pas oublier de me typer</Button>
+                <Button>Coucou toi</Button>
+            </main>
         </>
     );
 }
