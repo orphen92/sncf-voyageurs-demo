@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "avenir-medium";
+    src: local("avenir-medium"), 
+        url("../fonts/AvenirMedium.woff") format("woff"),
+        url("../fonts/AvenirMedium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "avenir-heavy";
+    src: local("avenir-heavy"), 
+        url("../fonts/AvenirHeavy.woff") format("woff"),
+        url("../fonts/AvenirHeavy.woff2") format("woff2");
+}
+
+
+
+
+$base-font-family: "avenir-medium", arial, helvetica, sans-serif;
+$base-font-size: 1.6rem;
+$base-line-height: 2.2rem;
+
+$secondary-font-family: "avenir-heavy", arial, helvetica, sans-serif;
+$title-line-height: 30px;

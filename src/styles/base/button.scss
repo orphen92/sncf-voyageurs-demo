@@ -1,0 +1,22 @@
+.app-button {
+    display: inline-flex;
+    color: $primary-dark;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    min-height: 48px;
+    border: 1px solid $primary-dark;
+    outline: 0;
+    padding: 6px 24px;
+    cursor: pointer;
+    background-position: center;
+    transition: background .5s,border-color .5s,color .5s;
+    font-family: $secondary-font-family;
+    line-height: 22px;
+
+    &:hover, &:focus {
+        background-position: center;
+        color: $on-primary;
+    }
+}

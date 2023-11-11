@@ -1,0 +1,15 @@
+.app-a {
+    display: inline-flex;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    color: $primary;
+    &:hover {
+        color: $primary-dark;
+    }
+    &_active {
+        color: $primary-dark;
+    }
+}
