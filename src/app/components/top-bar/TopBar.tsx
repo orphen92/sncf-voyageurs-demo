@@ -1,14 +1,20 @@
+import ThemeSwitcher from '@app/shared/buttons/themeSwitcher/ThemeSwitcher';
+import ContainerLayout from '@app/shared/layout/container/Container';
 import styles from './TopBar.module.scss';
 
-function TopBarComponent() {
+export interface ITopBar {}
+
+const TopBar: React.FC<ITopBar> = () => {
     return (
-        <div className={styles.topbar}>
-            <div className={styles.topbar__title}>topbar</div>
-            <div className={styles.topbar__navigation}>
-                <a className="app-a">topbar</a>
-            </div>
+        <div className={styles.topBar}>
+            <ContainerLayout>
+                <div className={styles.topBar__options}>
+                    <ThemeSwitcher />
+                    <div>lang switcher</div>
+                </div>
+            </ContainerLayout>
         </div>
     );
-}
+};
 
-export default TopBarComponent;
+export default TopBar;

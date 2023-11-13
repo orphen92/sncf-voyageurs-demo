@@ -1,0 +1,47 @@
+@import 'src/styles/colors';
+
+.switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    img {
+        color: transparent;
+        filter: invert(94%) sepia(8%) saturate(1384%) hue-rotate(60deg)
+            brightness(101%) contrast(102%);
+    }
+    label {
+        position: relative;
+        display: inline-flex;
+        input:checked + div {
+            background: $primary-light;
+            &:after {
+                transform: translateY(-50%) translateX(3.3rem) skew(0) skewY(0)
+                    scaleX(1) scaleY(1);
+                background: $on-base;
+            }
+        }
+    }
+
+    &__rounded {
+        border-radius: 999rem;
+        min-width: 4.8rem;
+        height: 2.4rem;
+        position: relative;
+        background-color: $primary-dark;
+        cursor: pointer;
+        &:after {
+            content: '';
+            display: block;
+            background: $secondary-light;
+            border-radius: 100%;
+            width: 1rem;
+            height: 1rem;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%) translateX(6px);
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 0.15s;
+        }
+    }
+}

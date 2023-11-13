@@ -1,12 +1,12 @@
-@import "reset";
+@import 'reset';
 
-@import "colors";
-@import "mixins";
-@import "fonts";
+@import 'colors';
+@import 'mixins';
+@import 'fonts';
 
-@import "base";
-@import "layout";
-@import "vendor";
+@import 'base';
+@import 'layout';
+@import 'vendor';
 
 html,
 body {
@@ -20,4 +20,11 @@ body {
 body {
     font-size: $base-font-size;
     line-height: $base-line-height;
-  }
+}
+/*Alternative Theme*/
+.theme-dark {
+    body {
+        background: $primary;
+        color: $on-primary;
+    }
+}

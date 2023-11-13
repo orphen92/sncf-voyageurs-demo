@@ -1,15 +1,10 @@
-.header {
-    height: 6rem;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    &__title {
-        font-size: 1.2em;
-        display: inline-flex;
-        align-items: center;
-    }
-    &__navigation {
-        display: inline-flex;
-        align-items: center;
+@import 'src/styles/colors';
+
+.topBar {
+    background: $on-base;
+    &__options {
+        height: 3.5rem;
+        display: flex;
+        justify-content: flex-end;
     }
 }
