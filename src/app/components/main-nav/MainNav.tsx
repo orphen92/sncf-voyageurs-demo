@@ -22,14 +22,23 @@ const MainNav: React.FC<IMainNav> = () => {
 
     const bigMenuData = langData && langData.bigMenu ? langData.bigMenu : null;
 
-    const [selectedMenuData, setSelectedMenuData] = useState<IBigMenu | null>(
-        null
-    );
+    const [selectedMenuData, setSelectedMenuData] = useState<{
+        [key: string]: IBigMenu | null;
+    }>({});
 
     function openMenu(id: string): void {
-        const menuData = bigMenuData.find((menu: IBigMenu) => menu.id === id);
+        // Close previous menu
+        const updatedMenuData = Object.keys(selectedMenuData).reduce(
+            (acc, menuId) => ({
+                ...acc,
+                [menuId]: menuId === id ? selectedMenuData[menuId] : null,
+            }),
+            {}
+        );
 
-        setSelectedMenuData(menuData);
+        // Open new menu
+        const menuData = bigMenuData.find((menu: IBigMenu) => menu.id === id);
+        setSelectedMenuData({ ...updatedMenuData, [id]: menuData });
     }
 
     return (
@@ -58,9 +67,11 @@ const MainNav: React.FC<IMainNav> = () => {
                                             }}
                                         >
                                             <span>{nav.name}</span>
-                                            {selectedMenuData && (
+                                            {selectedMenuData[nav.id] && (
                                                 <BigMenu
-                                                    menuData={selectedMenuData}
+                                                    menuData={
+                                                        selectedMenuData[nav.id]
+                                                    }
                                                 />
                                             )}
                                         </li>
