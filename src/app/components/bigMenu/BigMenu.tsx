@@ -1,5 +1,6 @@
 import { IBigMenu } from '@app/models/frontend/bigMenu';
 import { NavLink } from '@app/models/frontend/navLink';
+import React, { useState } from 'react';
 import styles from './BigMenu.module.scss';
 
 interface BigMenuProps {
@@ -7,9 +8,20 @@ interface BigMenuProps {
 }
 
 const BigMenu: React.FC<BigMenuProps> = ({ menuData }) => {
-    const data = menuData;
+    const [activeSubMenu, setActiveSubMenu] = useState<number | null>(null);
+    const [activeSubSubMenu, setActiveSubSubMenu] = useState<number | null>(
+        null
+    );
 
-    console.log(data);
+    const handleMenuClick = (index: number) => {
+        setActiveSubMenu(activeSubMenu === index ? null : index);
+        // reset submenu state
+        setActiveSubSubMenu(null);
+    };
+
+    const handleSubMenuClick = (index: number) => {
+        setActiveSubSubMenu(activeSubSubMenu === index ? null : index);
+    };
 
     return (
         <div className={styles.bigMenu}>
@@ -17,20 +29,24 @@ const BigMenu: React.FC<BigMenuProps> = ({ menuData }) => {
                 <div className={styles.bigMenu__first}>
                     <div className={styles.bigMenu__menu}>
                         <p className={styles.bigMenu__menu__title}>
-                            {data.title}
+                            {menuData.title}
                         </p>
                         <nav className={styles.bigMenu__menu__nav}>
                             <ul>
-                                {data.nav.map(
+                                {menuData.nav.map(
                                     (link: NavLink, index: number) => (
                                         <li key={`0_${index}`}>
                                             <div
                                                 className={styles.bigMenu__item}
+                                                onClick={() =>
+                                                    handleMenuClick(index)
+                                                }
                                             >
                                                 {link.name}
                                             </div>
                                             {link.subNav &&
-                                                link.subNav.length > 0 && (
+                                                link.subNav.length > 0 &&
+                                                activeSubMenu === index && (
                                                     <div
                                                         className={
                                                             styles.bigMenu__subnav
@@ -47,63 +63,70 @@ const BigMenu: React.FC<BigMenuProps> = ({ menuData }) => {
                                                             {link.subNav.map(
                                                                 (
                                                                     sublink: NavLink,
-                                                                    index: number
-                                                                ) => {
-                                                                    return (
-                                                                        <li
-                                                                            key={`1_${index}`}
+                                                                    subIndex: number
+                                                                ) => (
+                                                                    <li
+                                                                        key={`1_${subIndex}`}
+                                                                        className={
+                                                                            styles.subMenu__item
+                                                                        }
+                                                                    >
+                                                                        <div
+                                                                            onClick={() =>
+                                                                                handleSubMenuClick(
+                                                                                    subIndex
+                                                                                )
+                                                                            }
                                                                             className={
-                                                                                styles.subMenu__item
+                                                                                styles.bigMenu__item
                                                                             }
                                                                         >
-                                                                            <span>
-                                                                                {
-                                                                                    sublink.name
-                                                                                }
-                                                                            </span>
-                                                                            {sublink.subNav &&
-                                                                                sublink
-                                                                                    .subNav
-                                                                                    .length >
-                                                                                    0 && (
-                                                                                    <div
+                                                                            {
+                                                                                sublink.name
+                                                                            }
+                                                                        </div>
+                                                                        {sublink.subNav &&
+                                                                            sublink
+                                                                                .subNav
+                                                                                .length >
+                                                                                0 &&
+                                                                            activeSubSubMenu ===
+                                                                                subIndex && (
+                                                                                <div
+                                                                                    className={
+                                                                                        styles.bigMenu__subnav
+                                                                                    }
+                                                                                >
+                                                                                    <p
                                                                                         className={
-                                                                                            styles.bigMenu__subnav
+                                                                                            styles.subMenu__subtitle
                                                                                         }
                                                                                     >
-                                                                                        <p
-                                                                                            className={
-                                                                                                styles.subMenu__subtitle
-                                                                                            }
-                                                                                        >
-                                                                                            title
-                                                                                        </p>
-                                                                                        <ul>
-                                                                                            {sublink.subNav.map(
-                                                                                                (
-                                                                                                    sublink: NavLink,
-                                                                                                    index: number
-                                                                                                ) => {
-                                                                                                    return (
-                                                                                                        <li
-                                                                                                            key={`2_${index}`}
-                                                                                                            className={
-                                                                                                                styles.subMenu__item
-                                                                                                            }
-                                                                                                        >
-                                                                                                            {
-                                                                                                                sublink.name
-                                                                                                            }
-                                                                                                        </li>
-                                                                                                    );
-                                                                                                }
-                                                                                            )}
-                                                                                        </ul>
-                                                                                    </div>
-                                                                                )}
-                                                                        </li>
-                                                                    );
-                                                                }
+                                                                                        title
+                                                                                    </p>
+                                                                                    <ul>
+                                                                                        {sublink.subNav.map(
+                                                                                            (
+                                                                                                subsublink: NavLink,
+                                                                                                subsubIndex: number
+                                                                                            ) => (
+                                                                                                <li
+                                                                                                    key={`2_${subsubIndex}`}
+                                                                                                    className={
+                                                                                                        styles.subMenu__item
+                                                                                                    }
+                                                                                                >
+                                                                                                    {
+                                                                                                        subsublink.name
+                                                                                                    }
+                                                                                                </li>
+                                                                                            )
+                                                                                        )}
+                                                                                    </ul>
+                                                                                </div>
+                                                                            )}
+                                                                    </li>
+                                                                )
                                                             )}
                                                         </ul>
                                                     </div>
