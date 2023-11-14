@@ -1,23 +1,33 @@
 @font-face {
-    font-family: "avenir-medium";
-    src: local("avenir-medium"), 
-        url("../fonts/AvenirMedium.woff") format("woff"),
-        url("../fonts/AvenirMedium.woff2") format("woff2");
+    font-family: 'Avenir';
+    src:
+        url('../fonts/AvenirLTW02-45Book.woff2') format('woff2'),
+        url('../fonts/AvenirLTW02-45Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: "avenir-heavy";
-    src: local("avenir-heavy"), 
-        url("../fonts/AvenirHeavy.woff") format("woff"),
-        url("../fonts/AvenirHeavy.woff2") format("woff2");
+    font-family: 'Avenir';
+    src:
+        url('../fonts/AvenirLTW02-95Black.woff2') format('woff2'),
+        url('../fonts/AvenirLTW02-95Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
+@font-face {
+    font-family: 'Avenir';
+    src:
+        url('../fonts/AvenirLTW02-65Medium.woff2') format('woff2'),
+        url('../fonts/AvenirLTW02-65Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
-
-
-$base-font-family: "avenir-medium", arial, helvetica, sans-serif;
+$base-font-family: 'Avenir', arial, helvetica, sans-serif;
 $base-font-size: 1.6rem;
 $base-line-height: 2.2rem;
-
-$secondary-font-family: "avenir-heavy", arial, helvetica, sans-serif;
-$title-line-height: 30px;

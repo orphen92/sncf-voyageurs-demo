@@ -1,0 +1,947 @@
+{
+    "test": "Je suis un texte en français.",
+    "menuBar": {
+        "accountBtn": {
+            "name": "Mon compte",
+            "url": "https://tgvinoui.sncf/prehome?utm_source=site_SNCF&utm_medium=Env_SNCF&utm_campagne=Accedez_a_votre_Espace"
+        }
+    },
+    "mainMenu": [
+        {
+            "id": "withUs",
+            "name": "Voyagez avec nous"
+        },
+        {
+            "id": "solutions",
+            "name": "Nos solutions et expertises"
+        },
+        {
+            "id": "contact",
+            "name": "Contactez-nous"
+        },
+        {
+            "id": "discover",
+            "name": "Découvrez notre entreprise"
+        }
+    ],
+    "bigMenu": [
+        {
+            "id": "withUs",
+            "title": "Voyagez avec nous",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "Horaires & itinéraires",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Itinéraires",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Réservation de billets",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Recherche de train",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Horaires en gare",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Informations trafic",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "En France",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Avec TGV INOUI",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Actualités",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos destinations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos tarifs",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos services",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Préparez votre voyage",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Votre embarquement",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Vos services à bord",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Vos bagages et consignes",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Notre offre Business Première",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec INTERCITÉS",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Actualités",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos destinations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos tarifs",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Préparez votre voyage",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "A bord du train",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Garantie Voyage",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Notre offre pro",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos offres touristiques",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos missions et engagements",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Voyagez de nuit",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec OUIGO",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Nos destinations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Version TGV ou version Train Classique",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Actualités",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Nos tarifs, cartes et abonnements grandes lignes",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Abonnements Max",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Carte Liberté",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Cartes Avantage",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Conseils pour voyager en train moins cher",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Forfait hebdo et mensuel",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Comment dématérialiser vos cartes et abonnements",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Droit de rétractation",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "CGV",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyagez en Île-de-France",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec TER",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Carte TER",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Carte destinations touristiques",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Cartes de réduction",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Actualités",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "En Europe",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Actualités",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec TGV Lyria",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec DB SNCF Voyageurs en coopération",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec TGV INOUI Italie",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Vers l'Italie",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Verso la Francia",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec TGV INOUI Espagne",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Vers l'Espagne",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Votre Facture trajet FR-ES",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Factura",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Avec Eurostar",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Le pass Interrail",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Nos destinations vers l'Europe",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Allemagne",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Angleterre",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Belgique",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Espagne",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Italie",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Pays-Bas",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Suisse",
+                                    "subNav": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Notre programme de fidélité",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Les avantages Grand Voyageur",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Mon identifiant",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Les services pros",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Préparez votre voyage",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "En situation de handicap ou de mobilité réduite",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Priorités et réductions",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Services d'assistance",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Équipements à bord",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Accessibilité en gare",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Contact réservation Accès Plus, LUA et service réclamations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Foire aux questions",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Rapports d'accessibilité",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyagez en groupe",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyagez avec un bébé",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Enfants voyageant seuls",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyagez avec votre animal domestique",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyagez avec vos bagages à bord",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Train et vélo",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Avant et après la gare",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Louez une voiture",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Réservez un taxi ou un VTC",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Stationnement de vélo",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Stationnement de voiture",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Services en gare",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Notre service domicile + train",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Offres entreprises",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Nos offres",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Contrat Pro",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Contrat Premium",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Contrat Grand Compte",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Nos services pour les pros",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Portail Entreprises",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Carte Liberté",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Justificatifs de voyage Pro",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Privatisation de trains",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Votre voyage sur mesure",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Vos services personnalisés",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Votre devis",
+                            "subNav": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "solutions",
+            "title": "Nos solutions et expertises",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "Mobilités régionales",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Mass Transit",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Déplacements longues distances",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Mobilité professionnelle",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Pour le tourisme",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Solutions digitales",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Matériels roulants",
+                    "subNav": []
+                }
+            ]
+        },
+        {
+            "id": "contact",
+            "title": "Contactez-nous",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "En cas de retard",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "TGV INOUI - INTERCITÉS",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TER - Transilien",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "OUIGO",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Eurostar",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Billet direct",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "le bon d'achat digital",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Réclamation",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "TGV INOUI & INTERCITÉS",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TER",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Transilien",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "OUIGO",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Eurostar & TGV Lyria",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "CGU Tout'OUI",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Questions & réponses",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Service client",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Achat et Réservation",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Remboursement",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Retards",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Abonnements & cartes SNCF Voyageurs",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Trains en France et en Europe",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Billets",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyagez en groupe",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Gares",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "MAX JEUNE",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Mon identifiant SNCF",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Voyage en correspondance",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Wifi",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "À bord",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Service Client et Réclamations",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "En cas de situation exceptionnelle",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Crise sanitaire",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Droit de rétractation",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TGV INOUI France Espagne",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Nos points de contact",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Sur les réseaux sociaux",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Par téléphone",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Via nos assistants virtuels",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Assistant virtuel Tout'OUI",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Bot TGV INOUI",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Assistant virtuel SNCF",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Assistant virtuel Tilien",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Assistant virtuel Gares et connexions",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Service rendez-vous",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Échange et annulation",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Réclamation gare",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Objets perdus ou trouvés",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Contravention",
+                    "subNav": []
+                }
+            ]
+        },
+        {
+            "id": "discover",
+            "title": "Découvrez notre entreprise",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "SNCF Voyageurs",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Nous connaître",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Nos solutions de mobilité verte",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Transition durable",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Nos marchés et territoires",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Nos directions et filiales",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Direction du matériel",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Nous connaître",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos objectifs",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Nos enjeux",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Masteris",
+                            "subNav": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

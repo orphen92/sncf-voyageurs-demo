@@ -1,4 +1,4 @@
-import { setTheme } from '@app/store/themes/themes.actions';
+import * as themeActions from '@app/store/themes/themes.actions';
 import {
     ThemesState,
     initialState,
@@ -18,11 +18,13 @@ interface ThemeContextProps {
     dispatch: Dispatch<any>;
 }
 
+interface ThemeProviderProps {
+    children: ReactNode;
+}
+
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
 
-export const ThemeProvider: React.FC<{ children: ReactNode }> = ({
-    children,
-}) => {
+export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     useEffect(() => {
@@ -47,5 +49,5 @@ export const useTheme = () => {
 };
 
 export const changeTheme = (dispatch: Dispatch<any>, theme: string) => {
-    dispatch(setTheme(theme));
+    dispatch(themeActions.setTheme(theme));
 };

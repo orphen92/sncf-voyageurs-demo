@@ -1,0 +1,57 @@
+@import 'src/styles/colors';
+
+.mainNav {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        background: $base-light;
+        padding: 1.6rem;
+        width: 7.6rem;
+        height: 6rem;
+        border-bottom-right-radius: 1.2rem;
+        border-bottom-left-radius: 1.2rem;
+    }
+    &__btn {
+        padding: 0.8rem 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background: $base-light;
+        border-radius: 1.2rem;
+        color: $primary-dark;
+        font-weight: 900;
+        font-size: 1.4rem;
+        gap: 1rem;
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.4rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: $primary-dark;
+        border-radius: 9999px;
+        img {
+            filter: invert(100%) sepia(21%) saturate(504%) hue-rotate(47deg)
+                brightness(100%) contrast(98%);
+        }
+    }
+
+    &__nav {
+        padding: 0 3rem;
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            color: $base-light;
+            font-size: 1.4rem;
+            li {
+                cursor: pointer;
+            }
+        }
+    }
+}

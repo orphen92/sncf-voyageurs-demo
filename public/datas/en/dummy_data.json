@@ -1,0 +1,27 @@
+{
+    "test": "I am an text in english",
+    "menuBar": {
+        "accountBtn": {
+            "name": "My Account",
+            "url": "https://tgvinoui.sncf/prehome?utm_source=site_SNCF&utm_medium=Env_SNCF&utm_campagne=Accedez_a_votre_Espace"
+        }
+    },
+    "mainMenu": [
+        {
+            "id": "withUs",
+            "name": "Travel with us"
+        },
+        {
+            "id": "solutions",
+            "name": "Solutions and expertise"
+        },
+        {
+            "id": "contact",
+            "name": "Customer service"
+        },
+        {
+            "id": "discover",
+            "name": "Our company"
+        }
+    ]
+}

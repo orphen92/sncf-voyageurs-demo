@@ -1,0 +1,84 @@
+@import 'src/styles/colors';
+.bigMenu {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: $primary-dark;
+    position: absolute;
+    top: 7.5rem;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    transform: translateY(2rem);
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &__wrapper {
+        max-width: 101.6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__first {
+        position: relative;
+        max-width: 30%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        &::before {
+            content: '';
+            background-color: $on-base;
+            border-radius: 64px;
+            position: absolute;
+            width: 100vw;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    &__menu {
+        position: relative;
+        padding-right: 4rem;
+        &__title {
+            color: $base-dark;
+            font-weight: 900;
+            font-size: 2.6rem;
+            line-height: 2.25rem;
+            margin: 0 0 3rem 1.5rem;
+        }
+
+        &__nav {
+            ul {
+                font-weight: 400;
+                gap: 1rem;
+                flex-direction: column;
+                display: flex;
+                align-items: flex-start;
+            }
+        }
+    }
+
+    &__item {
+        font-weight: 500;
+        font-size: 1.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem;
+    }
+
+    &__subnav {
+        width: 100%;
+        margin-left: 4rem;
+        left: 100%;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+    }
+}
+
+.subMenu {
+    &__subtitle {
+        min-height: 3.1rem;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+    }
+}

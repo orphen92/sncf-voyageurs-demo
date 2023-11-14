@@ -1,7 +1,15 @@
 import TopBar from '@app/components/top-bar/TopBar';
 import Button from '@app/shared/buttons/button/Button';
 import Head from 'next/head';
+
+import MainNav from '@app/components/main-nav/MainNav';
+import { useLang } from '@app/context/lang.context';
+
 export default function Home() {
+    const { langData } = useLang();
+    const btnData =
+        langData && langData.menuBar ? langData.menuBar.accountBtn : null;
+
     return (
         <>
             <Head>
@@ -16,11 +24,15 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>
-                <TopBar />
-                <Button>Pas oublier de me typer</Button>
-                <Button>Coucou toi</Button>
-            </main>
+
+            {btnData && (
+                <main>
+                    <TopBar />
+                    <MainNav sampleTextProp="test" />
+                    <Button>{langData.test}</Button>
+                    <Button>Coucou toi</Button>
+                </main>
+            )}
         </>
     );
 }

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Avenir LT W02 45 Book';
+    src: url('AvenirLTW02-45Book.woff2') format('woff2'),
+        url('AvenirLTW02-45Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT W02 95';
+    src: url('AvenirLTW02-95Black.woff2') format('woff2'),
+        url('AvenirLTW02-95Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir LT W02 65';
+    src: url('AvenirLTW02-65Medium.woff2') format('woff2'),
+        url('AvenirLTW02-65Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

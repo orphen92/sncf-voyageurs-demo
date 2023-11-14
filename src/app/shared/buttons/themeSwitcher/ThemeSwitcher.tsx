@@ -1,4 +1,4 @@
-import { ChangeEvent } from 'react';
+import { ChangeEvent, useState } from 'react';
 
 import { changeTheme, useTheme } from '@app/context/theme.context';
 
@@ -9,9 +9,10 @@ import styles from './ThemeSwitcher.module.scss';
 export interface IThemeSwitcher {}
 
 const ThemeSwitcher: React.FC<IThemeSwitcher> = () => {
-    const { state, dispatch } = useTheme();
-
+    const { dispatch } = useTheme();
+    const [isChecked, setIsChecked] = useState(false);
     function handleChange(event: ChangeEvent<HTMLInputElement>) {
+        setIsChecked(event.target.checked);
         const newTheme = event.target.checked ? 'dark' : 'default';
         changeTheme(dispatch, newTheme);
     }
@@ -30,7 +31,7 @@ const ThemeSwitcher: React.FC<IThemeSwitcher> = () => {
                 <input
                     type="checkbox"
                     role="switch"
-                    aria-checked="false"
+                    aria-checked={isChecked}
                     className="sr-only"
                     onChange={handleChange}
                 />

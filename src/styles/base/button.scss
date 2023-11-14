@@ -11,11 +11,15 @@
     padding: 6px 24px;
     cursor: pointer;
     background-position: center;
-    transition: background .5s,border-color .5s,color .5s;
-    font-family: $secondary-font-family;
+    transition:
+        background 0.5s,
+        border-color 0.5s,
+        color 0.5s;
+    font-family: $base-font-family;
     line-height: 22px;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background-position: center;
         color: $on-primary;
     }
