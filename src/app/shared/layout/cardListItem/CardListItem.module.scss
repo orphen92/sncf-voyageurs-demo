@@ -1,0 +1,37 @@
+@import 'src/styles/colors';
+
+.cardItem {
+    max-width: 31.2rem;
+    min-width: 22.4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem;
+    background-color: $secondary-light;
+    border-radius: 1.6rem;
+    color: $primary-dark;
+    img {
+        max-height: 4rem;
+        margin-bottom: 2rem;
+        filter: invert(25%) sepia(15%) saturate(4197%) hue-rotate(140deg)
+            brightness(93%) contrast(95%);
+    }
+    h3 {
+        font-weight: 800;
+        font-size: 2.1rem;
+        margin-bottom: 0;
+    }
+    a {
+        color: $primary-dark;
+        text-decoration: none;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        img {
+            margin: 0;
+        }
+    }
+}

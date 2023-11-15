@@ -1,0 +1,19 @@
+@import 'src/styles/colors';
+
+.CardList {
+    padding: 6rem 0;
+    background-color: $secondary-dark;
+    color: $on-secondary-alt;
+    h2 {
+        font-weight: 900;
+        margin-bottom: 2.5rem;
+        font-size: 3.1rem;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

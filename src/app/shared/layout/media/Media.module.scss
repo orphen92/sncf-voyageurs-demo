@@ -1,0 +1,18 @@
+@import 'src/styles/colors';
+
+.mediaBlock {
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: $on-base;
+    text-align: center;
+    h2 {
+        color: $base-dark;
+        font-weight: 800;
+        font-size: 4rem;
+    }
+    &__intro {
+        color: $base;
+        font-size: 1.4rem;
+    }
+}

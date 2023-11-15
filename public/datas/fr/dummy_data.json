@@ -943,5 +943,111 @@
                 }
             ]
         }
-    ]
+    ],
+    "bigBlock": {
+        "title": "Embarquez à bord de TGV INOUI, destination Disneyland© Paris",
+        "btn": {
+            "name": "En savoir plus",
+            "url": "#"
+        },
+        "img": "/static/medias/disneyland-paris-noel-enchante-tgv-inoui-header.jpg.webp"
+    },
+    "travel": {
+        "title": "Voyagez avec nous",
+        "text": "Découvrez l'ensemble nos transporteurs et leurs offres pour voyager en France et en Europe.",
+        "swiper": {
+            "btn": "En savoir plus",
+            "filter": [
+                {
+                    "key": "fr",
+                    "value": "En France"
+                },
+                {
+                    "key": "eu",
+                    "value": "En Europe"
+                }
+            ],
+            "france": [
+                {
+                    "title": "TGV INOUI",
+                    "text": "Plus de 200 destinations à grande vitesse",
+                    "img": "/static/medias/travel/france/voyagezavecnous-tgvinoui3-push.jpg.webp"
+                },
+                {
+                    "title": "INTERCITÉS",
+                    "text": "Plus de 150 destinations de jour et de nuit",
+                    "img": "/static/medias/travel/france/voyagezavecnous-intercites-push.jpg.webp"
+                },
+                {
+                    "title": "OUIGO",
+                    "text": "OUIGO : TGV et trains classiques à prix malins",
+                    "img": "/static/medias/travel/france/voyagezavecnous-ouigo-push.jpg.webp"
+                },
+                {
+                    "title": "TER",
+                    "text": "Vos trajets en région à travers toute la France",
+                    "img": "/static/medias/travel/france/voyagezavecnous-ter-push_0.jpg.webp"
+                },
+                {
+                    "title": "Transilien",
+                    "text": "Vos trajets à travers l'Île-de-France",
+                    "img": "/static/medias/travel/france/voyagezavecnous-transilien2-push.jpg.webp"
+                }
+            ],
+            "europe": [
+                {
+                    "title": "TGV Lyria",
+                    "text": "Evadez-vous entre la France et la Suisse",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-tgvlyria3-push.jpg.webp"
+                },
+                {
+                    "title": "Eurostar",
+                    "text": "Voyagez entre Paris, Londres, Lille et Bruxelles",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-eurostar-push.jpg.webp"
+                },
+                {
+                    "title": "TGV INOUI Espagne",
+                    "text": "Profitez de l'Espagne à grande vitesse",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-tgvinouiespagne-push.jpg.webp"
+                },
+                {
+                    "title": "TGV INOUI Italie",
+                    "text": "Voyagez à grande vitesse entre France et Italie",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-svi-turin-push.jpg.webp"
+                },
+                {
+                    "title": "DB SNCF en coopération",
+                    "text": "France et Allemagne connectées à grande vitesse",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-dbsncf-ulm-push-.jpg.webp"
+                },
+                {
+                    "title": "Pass Interrail",
+                    "text": "Composez votre itinéraire à travers l'Europe",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-passinterrail-push.jpg.webp"
+                }
+            ]
+        }
+    },
+    "offers": {
+        "title": "Cartes, tarifs et abonnements grandes lignes",
+        "btn": "Découvrez nos cartes",
+        "list": [
+            {
+                "title": "Cartes avantage",
+                "img": "/static/icons/icone-traintgv.svg"
+            },
+            {
+                "title": "Abonnement Max",
+                "img": "/static/icons/icone-traintgv.svg"
+            },
+            {
+                "title": "Carte Liberté",
+                "img": "/static/icons/icone-traintgv.svg"
+            },
+            {
+                "title": "Nos forfaits",
+                "img": "/static/icons/icone-traintgv.svg"
+            }
+        ]
+    }
 }

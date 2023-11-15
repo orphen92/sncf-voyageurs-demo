@@ -23,5 +23,1073 @@
             "id": "discover",
             "name": "Our company"
         }
-    ]
+    ],
+    "bigMenu": [
+        {
+            "id": "withUs",
+            "title": "Travel with us",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "Booking and itinerary",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Itinerary",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Book your tickets",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Search by train number",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Timetables",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Traffic information",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "In France",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "TGV INOUI",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "News",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Our destinations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Our fares",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Our services",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Plan your journey",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Boarding your train",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Aboard",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Luggage",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "All about Business Première",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "INTERCITÉS",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "News",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Our destinations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Our fares",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Plan your journey",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Aboard",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Travel guarantee",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Pro offer",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Touring France",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Missions and commitments",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Overnight travel",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "OUIGO",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Our destinations",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "TGV or classic trains",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "News",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Mainline cards and fares",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Avantage Card",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Forfait weekly and monthly",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "How to save on rail travel",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Liberté card",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "MAX passes",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Digitize your card",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Right to cancel",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Legal notices",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Travel in Île-de-France",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TER",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "TER map",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Tourist attraction map",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Cards",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "News",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "En Europe",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "News",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TGV Lyria",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "DB SNCF Voyageurs en coopération",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TGV INOUI Italie",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Towards Italy",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Verso la Francia",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "TGV INOUI Espagne",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Towards Spain",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Invoice between France and Spain",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Factura",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Eurostar",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Interrail Pass Europe",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Destinations",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Belgium",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "England",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Germany",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Italie",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Netherlands",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Spain",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Switzerland",
+                                    "subNav": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Our rewards programme",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Grand Voyageur Benefits",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "My ID",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Pro benefits services",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Plan your journey",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Accessibility",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Priority and discounts",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Special assistance",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "On board accessibility",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Station accessibility",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Reservation contact Accès Plus, LUA and claims service",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "FAQ",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Accessibility reports",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Group travel",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "10-60 people",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "60+ people",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "More than 250 people",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Station accessibility",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Insider tips",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Travel by train with a baby",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Kids traveling alone",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Travelling with a pet",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Luggages on board",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Train and bike",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Bicycle on board",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Park your bike",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Rent a bicycle",
+                                    "subNav": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Before and after station",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Rent a car",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Book a taxi",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Park your bike",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Park your car",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Services at the station",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Home + train service",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Business travel",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Our offers",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Contrat Pro",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Contrat Premium",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Contrat Grand Compte",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Business services",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Portail Entreprises",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Liberté card",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Business travel receipts",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Charter a train",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Customized travel",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Additionnal services",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Request a quote",
+                            "subNav": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "solutions",
+            "title": "Solutions and expertise",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "Regional mobility",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Mass Transit",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Long distance travel",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Professional mobility",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Solutions for tourism",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Digital solution",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Rolling stock",
+                    "subNav": []
+                }
+            ]
+        },
+        {
+            "id": "contact",
+            "title": "Customer service",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "In case of delay",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "TGV INOUI - INTERCITÉS",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TER - Transilien",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "OUIGO",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Eurostar",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Tickets",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "G30 digital voucher",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Claims and complaints",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "TGV INOUI and INTERCITÉS",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TER",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Transilien",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "OUIGO",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Eurostar and TGV Lyria",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "CGU TOUTOUI",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Q&A",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Customer service and complaints",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Booking & Buying",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Refunds",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Delays",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "SNCF Voyageurs cards and passes",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Trains in France & beyond",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Tickets",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Travel in a group",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Stations",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "MAX JEUNE",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "My SNCF ID",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Connecting travel",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Wifi",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Aboard your train",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Customer service and complaints",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "In case of exceptional circumstances",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "COVID 19",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Right to cancel",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "TGV INOUI France Espagne",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Our contact details",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "On social media",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "By telephone",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Via our virtual assistants",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "Virtual assistant Tout'OUI",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "TGV INOUI bot",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "SNCF virtual agent",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Tilien virtual assistant",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Stations and connections virtual assistant",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Appointment service",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Exchange and cancellation",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Station claims and complaints",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Lost property",
+                    "subNav": []
+                },
+                {
+                    "id": "",
+                    "name": "Fines",
+                    "subNav": []
+                }
+            ]
+        },
+        {
+            "id": "discover",
+            "title": "Our company",
+            "isRoot": true,
+            "nav": [
+                {
+                    "id": "",
+                    "name": "SNCF Voyageurs",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "About us",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Green mobility solutions",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Transition durable",
+                            "subNav": []
+                        },
+                        {
+                            "id": "",
+                            "name": "Our market and territories",
+                            "subNav": []
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "name": "Divisions and subsidiaries",
+                    "subNav": [
+                        {
+                            "id": "",
+                            "name": "Rolling stock division",
+                            "subNav": [
+                                {
+                                    "id": "",
+                                    "name": "About us",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Objectives",
+                                    "subNav": []
+                                },
+                                {
+                                    "id": "",
+                                    "name": "Our stakes",
+                                    "subNav": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "",
+                            "name": "Masteris",
+                            "subNav": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "bigBlock": {
+        "title": "Aboard the TGV INOUI destination Disneyland© Paris",
+        "btn": {
+            "name": "Read more",
+            "url": "#"
+        },
+        "img": "/static/medias/disneyland-paris-noel-enchante-tgv-inoui-header.jpg.webp"
+    },
+    "travel": {
+        "title": "Travel with us",
+        "text": "Discover all our carriers and their offers in France and Europe.",
+        "swiper": {
+            "btn": "Read more",
+            "filter": [
+                {
+                    "key": "fr",
+                    "value": "In France"
+                },
+                {
+                    "key": "eu",
+                    "value": "In Europe"
+                }
+            ],
+            "france": [
+                {
+                    "title": "TGV INOUI",
+                    "text": "Over 200 high-speed destinations",
+                    "img": "/static/medias/travel/france/voyagezavecnous-tgvinoui3-push.jpg.webp"
+                },
+                {
+                    "title": "INTERCITÉS",
+                    "text": "More than 150 day and night destinations",
+                    "img": "/static/medias/travel/france/voyagezavecnous-intercites-push.jpg.webp"
+                },
+                {
+                    "title": "OUIGO",
+                    "text": "TGV and classic trains at smart prices",
+                    "img": "/static/medias/travel/france/voyagezavecnous-ouigo-push.jpg.webp"
+                },
+                {
+                    "title": "TER",
+                    "text": "Your regional journeys throughout France",
+                    "img": "/static/medias/travel/france/voyagezavecnous-ter-push_0.jpg.webp"
+                },
+                {
+                    "title": "Transilien",
+                    "text": "Travelling throughout the Paris Region",
+                    "img": "/static/medias/travel/france/voyagezavecnous-transilien2-push.jpg.webp"
+                }
+            ],
+            "europe": [
+                {
+                    "title": "TGV Lyria",
+                    "text": "Travel between France and Switzerland",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-tgvlyria3-push.jpg.webp"
+                },
+                {
+                    "title": "Eurostar",
+                    "text": "Travel between Paris, London, Lille and Brussels",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-eurostar-push.jpg.webp"
+                },
+                {
+                    "title": "TGV INOUI Espagne",
+                    "text": "Spain at high speed",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-tgvinouiespagne-push.jpg.webp"
+                },
+                {
+                    "title": "TGV INOUI Italie",
+                    "text": "High-speed travel between France and Italy",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-svi-turin-push.jpg.webp"
+                },
+                {
+                    "title": "DB SNCF en coopération",
+                    "text": "France and Germany connected at high speed",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-dbsncf-ulm-push-.jpg.webp"
+                },
+                {
+                    "title": "Pass Interrail",
+                    "text": "Plan your itinerary through Europe",
+                    "img": "/static/medias/travel/europe/voyagezavecnous-passinterrail-push.jpg.webp"
+                }
+            ]
+        }
+    },
+    "offers": {
+        "title": "Cards, fares and long-distance travelcards",
+        "btn": "Discover our cards",
+        "list": [
+            {
+                "title": "Avantage cards",
+                "img": "/static/icons/icone-traintgv.svg"
+            },
+            {
+                "title": "Max subscriptions",
+                "img": "/static/icons/icone-traintgv.svg"
+            },
+            {
+                "title": "Liberté card",
+                "img": "/static/icons/icone-traintgv.svg"
+            },
+            {
+                "title": "Our package deals",
+                "img": "/static/icons/icone-traintgv.svg"
+            }
+        ]
+    }
 }

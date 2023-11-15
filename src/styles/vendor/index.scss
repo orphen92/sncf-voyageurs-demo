@@ -1,0 +1,17 @@
+.pagination {
+    position: static;
+    .swiper-pagination-bullet {
+        background: transparent;
+        padding: 0.35rem;
+        opacity: 1;
+        border: 0.3rem solid $base-dark;
+        width: 0.8rem;
+        height: 0.8rem;
+        display: inline-block;
+        &-active {
+            background: $base-dark;
+            width: 2.4rem;
+            border-radius: 1rem;
+        }
+    }
+}

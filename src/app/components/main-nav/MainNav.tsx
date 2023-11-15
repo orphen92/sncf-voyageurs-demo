@@ -26,6 +26,8 @@ const MainNav: React.FC<IMainNav> = () => {
         [key: string]: IBigMenu | null;
     }>({});
 
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+
     function openMenu(id: string): void {
         // Close previous menu
         const updatedMenuData = Object.keys(selectedMenuData).reduce(
@@ -36,9 +38,11 @@ const MainNav: React.FC<IMainNav> = () => {
             {}
         );
 
-        // Open new menu
+        // Open new previous menu
         const menuData = bigMenuData.find((menu: IBigMenu) => menu.id === id);
         setSelectedMenuData({ ...updatedMenuData, [id]: menuData });
+
+        setIsOpen(!isOpen);
     }
 
     return (
@@ -60,18 +64,20 @@ const MainNav: React.FC<IMainNav> = () => {
                             <ul>
                                 {mainNavData.map((nav: NavLink) => {
                                     return (
-                                        <li
-                                            key={nav.id}
-                                            onClick={() => {
-                                                openMenu(nav.id);
-                                            }}
-                                        >
-                                            <span>{nav.name}</span>
+                                        <li key={nav.id}>
+                                            <span
+                                                onClick={() => {
+                                                    openMenu(nav.id);
+                                                }}
+                                            >
+                                                {nav.name}
+                                            </span>
                                             {selectedMenuData[nav.id] && (
                                                 <BigMenu
                                                     menuData={
                                                         selectedMenuData[nav.id]
                                                     }
+                                                    isOpen={isOpen}
                                                 />
                                             )}
                                         </li>

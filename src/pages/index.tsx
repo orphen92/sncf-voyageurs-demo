@@ -1,15 +1,20 @@
 import TopBar from '@app/components/top-bar/TopBar';
-import Button from '@app/shared/buttons/button/Button';
 import Head from 'next/head';
 
 import MainNav from '@app/components/main-nav/MainNav';
 import { useLang } from '@app/context/lang.context';
+import BigBlock from '@app/shared/layout/bigBlock/BigBlock';
+import CardList from '@app/shared/layout/cardList/CardList';
+import Media from '@app/shared/layout/media/Media';
+import Swipper from '@app/shared/layout/swipper/Swipper';
 
 export default function Home() {
     const { langData } = useLang();
     const btnData =
         langData && langData.menuBar ? langData.menuBar.accountBtn : null;
-
+    const bigBlockData = langData.bigBlock;
+    const travelData = langData.travel;
+    const offersData = langData.offers;
     return (
         <>
             <Head>
@@ -27,10 +32,24 @@ export default function Home() {
 
             {btnData && (
                 <main>
-                    <TopBar />
-                    <MainNav sampleTextProp="test" />
-                    <Button>{langData.test}</Button>
-                    <Button>Coucou toi</Button>
+                    <header className="app-header">
+                        <TopBar />
+                        <MainNav />
+                    </header>
+                    <BigBlock
+                        title={bigBlockData.title}
+                        btn={bigBlockData.btn.name}
+                        img={bigBlockData.img}
+                        url={bigBlockData.btn.url}
+                    ></BigBlock>
+                    <Media title={travelData.title} text={travelData.text}>
+                        <Swipper swiperData={travelData.swiper} />
+                    </Media>
+                    <CardList
+                        title={offersData.title}
+                        data={offersData.list}
+                        btn={offersData.btn}
+                    />
                 </main>
             )}
         </>

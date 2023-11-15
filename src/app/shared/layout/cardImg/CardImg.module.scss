@@ -1,0 +1,43 @@
+@import 'src/styles/colors';
+
+.Card {
+    width: 31.2rem;
+    margin-right: 4rem;
+    color: $base-dark;
+    overflow: visible;
+    text-align: left;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        h3 {
+            font-weight: 800;
+            font-size: 1.7rem;
+            line-height: 2.4rem;
+            margin-bottom: 0;
+        }
+        img {
+            order: -1;
+            max-width: 100%;
+            border-radius: 2rem;
+        }
+        p {
+            font-size: 1.4rem;
+        }
+        a {
+            font-weight: 500;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            text-decoration: none;
+            color: $base-dark;
+            font-size: 1.4rem;
+            img {
+                cursor: pointer;
+                order: 0;
+                filter: invert(94%) sepia(8%) saturate(1384%) hue-rotate(60deg)
+                    brightness(101%) contrast(102%);
+            }
+        }
+    }
+}

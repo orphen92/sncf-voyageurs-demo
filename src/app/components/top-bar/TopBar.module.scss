@@ -2,6 +2,8 @@
 
 .topBar {
     background: $on-base;
+    position: relative;
+    z-index: 10;
     &__options {
         height: 3.5rem;
         display: flex;
